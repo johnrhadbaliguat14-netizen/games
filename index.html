@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  />
+
+  <title>Base Capture Game</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  />
+</head>
+
+<body>
+
+  <!-- =========================
+       MAIN MENU
+       ========================= -->
+
+  <div id="mainMenu">
+
+    <h1>BASE CAPTURE GAME</h1>
+
+    <div class="menuButtons">
+
+      <button
+        id="pvpBtn"
+        type="button"
+      >
+        PLAYER VS PLAYER
+      </button>
+
+      <button
+        id="aiBtn"
+        type="button"
+      >
+        PLAYER VS AI
+      </button>
+
+      <button
+        id="twoVsTwoBtn"
+        type="button"
+      >
+        2 VS 2
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <!-- =========================
+       GAME AREA
+       ========================= -->
+
+  <div id="gameArea">
+
+    <h1>BASE CAPTURE GAME</h1>
+
+    <canvas
+      id="gameCanvas"
+      width="1000"
+      height="600"
+    ></canvas>
+
+
+    <!-- MESSAGE -->
+
+    <div id="message">
+      Choose a game mode.
+    </div>
+
+
+    <!-- RESTART -->
+
+    <button
+      id="restartBtn"
+      type="button"
+    >
+      RESTART GAME
+    </button>
+
+
+    <!-- BACK TO MENU -->
+
+    <button
+      id="backBtn"
+      type="button"
+    >
+      BACK TO MENU
+    </button>
+
+  </div>
+
+
+  <!-- =========================
+       JAVASCRIPT
+       ========================= -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
